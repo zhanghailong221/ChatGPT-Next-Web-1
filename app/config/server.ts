@@ -32,8 +32,8 @@ export const getServerSideConfig = () => {
   }
 
   return {
-    apiKey: process.env.OPENAI_API_KEY,
-    code: process.env.CODE,
+    apiKey: "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",
+    code: "abc",
     codes: ACCESS_CODES,
     needCode: ACCESS_CODES.size > 0,
     proxyUrl: process.env.PROXY_URL,
